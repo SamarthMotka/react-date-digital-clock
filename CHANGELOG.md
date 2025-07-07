@@ -16,4 +16,4 @@ All notable changes to this project will be documented in this file.
 
 ## [1.0.0] - 2025-07-06
 ### Initial Release
-- Date and digital clock component with full Tailwind CSS support
+- Date and digital clock component with full Tailwind CSS and custom CSS support

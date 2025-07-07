@@ -1,6 +1,6 @@
 {
   "name": "react-date-digital-clock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fully customizable React component that displays both current date and a digital clock, built with Tailwind CSS utility classes. Easily adaptable to your design system by adding or removing Tailwind classes via props.",
   "keywords": [
     "react-date-clock",

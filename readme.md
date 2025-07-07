@@ -25,6 +25,8 @@ npm install react-date-digital-clock
 ```
 to use the component you can import it as follow
 
+## Usage
+
 ```
 import DateAndClock from "../react-date-digital-clock";
 

@@ -23,6 +23,36 @@ A lightweight and fully customizable React component to display the current **da
 ```bash
 npm install react-date-digital-clock
 ```
+Create a taiwind.config.js if not present and add the given code 
+
+ ```    
+ safelist: [
+        'p-2', 'text-center', 'border', 'rounded-lg', 'm-1',
+        'px-2', 'py-2', 'text-xl', 'font-semibold'
+
+    ],
+```
+
+as shown below:
+
+
+```js
+tailwind.config.js
+
+export default {
+    safelist: [
+        'p-2', 'text-center', 'border', 'rounded-lg', 'm-1',
+        'px-2', 'py-2', 'text-xl', 'font-semibold'
+
+    ],
+    theme: {
+        extend: {},
+    },
+    plugins: [],
+}
+```
+
+
 to use the component you can import it as follow
 
 ##  Usage
@@ -43,7 +73,7 @@ import DateAndClock from "../react-date-digital-clock";
 |----------------|----------|----------------------------------------------------|-------------|
 | `w`            | `string` | `'130px'`                                          | Width of the container. Applied via inline `style={{ width: w }}` |
 | `h`            | `string` | `''`                                               | Height of the container. Applied via inline `style={{ height: h }}` |
-| `generalProps` | `string` | `'p-2 text-center border-1 rounded-lg m-1'`        | Tailwind (or custom) classes for the outer `<div>` container |
+| `generalProps` | `string` | `'p-2 text-center border rounded-lg m-1'`        | Tailwind (or custom) classes for the outer `<div>` container |
 | `dateProps`    | `string` | `'px-2'`                                           | Tailwind or custom classes applied to the date element |
 | `clockProps`   | `string` | `'px-2'`                                           | Tailwind or custom classes applied to the clock element |
 

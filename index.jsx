@@ -2,11 +2,11 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 
 const DateAndClock = ({
-    w='130px',
-    h='',  
-    dateProps = 'px-2', 
-    clockProps = 'px-2', 
-    generalProps ='p-2 text-center border-1 rounded-lg m-1 border-black' }) => {
+    w = '130px',
+    h = '',
+    dateProps = 'px-2',
+    clockProps = 'px-2',
+    generalProps = 'p-2 text-center border rounded-lg m-1' }) => {
 
     const getFormattedDate = () => {
         const now = new Date();

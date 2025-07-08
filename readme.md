@@ -25,7 +25,7 @@ npm install react-date-digital-clock
 ```
 to use the component you can import it as follow
 
-## Usage
+##  Usage
 
 ```
 import DateAndClock from "../react-date-digital-clock";
@@ -33,6 +33,9 @@ import DateAndClock from "../react-date-digital-clock";
 <DateAndClock ></DateAndClock>
 ```
 
+## Live-Preview
+
+<a href="https://reactdatedigitalclock.netlify.app/" >Live Preview </a>
 
 ## 📚 Props Table
 

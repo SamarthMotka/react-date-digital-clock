@@ -6,7 +6,7 @@ const DateAndClock = ({
     h='',  
     dateProps = 'px-2', 
     clockProps = 'px-2', 
-    generalProps ='p-2 text-center border-1 rounded-lg m-1' }) => {
+    generalProps ='p-2 text-center border-1 rounded-lg m-1 border-black' }) => {
 
     const getFormattedDate = () => {
         const now = new Date();

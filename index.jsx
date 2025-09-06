@@ -7,7 +7,7 @@ const DateAndClock = ({
     dateProps = "px-2",
     clockProps = "px-2",
     generalProps = "p-2 flex justify-center items-center text-center border rounded-lg m-1 w-auto",
-    dayNameProps = "flex items-center justify-center bg-black text-white rounded-md p-2 font-bold text-4xl",
+    dayNameProps = "flex items-center justify-center bg-black text-white rounded-lg p-2 font-bold text-4xl",
 }) => {
     const getFormattedDate = () => {
         const now = new Date();

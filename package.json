@@ -4,14 +4,21 @@
   "description": "A fully customizable React component that displays both current date and a digital clock, built with Tailwind CSS utility classes. Easily adaptable to your design system by adding or removing Tailwind classes via props.",
   "keywords": [
     "react-date-clock",
+    "react date clock",
     "react-digital-clock",
+    "react digital clock",
     "react-date-digital-clock",
+    "react date digital clock",
     "react-clock",
+    "react clock",
     "digital-clock",
+    "digital clock",
     "react",
     "tailwind",
     "clock-component",
-    "date-time"
+    "clock component",
+    "date-time",
+    "date time"
   ],
   "homepage": "https://github.com/SamarthMotka/react-date-digital-clock#readme",
   "bugs": {

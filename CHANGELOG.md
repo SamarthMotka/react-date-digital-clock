@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2025-09-06
+### Added
+- Display of the day name (e.g., `SAT`, `SUN`, etc.) next to the date and clock, with custom styling support via `dayNameProps`.
+
+### Changed
+- Refactored and cleaned up the `DateAndClock` component by removing unnecessary code and simplifying logic.
+
 ## [1.0.7] - 2025-07-07
 ### Fix
 - Bug fixes
